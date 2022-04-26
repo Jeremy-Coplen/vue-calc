@@ -1,7 +1,15 @@
-<script setup>
+<script>
+  export default {
+    data () {
+      return {
+        partOne: '',
+        partTwo: '',
+        operator: ''
+      }
+    }
+  }
 </script>
 
 <template>
-  <main>
-  </main>
+  <div id="calc"></div>
 </template>
