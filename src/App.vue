@@ -18,6 +18,10 @@
 
 <style>
   #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
   }
   #app h1 {
@@ -30,6 +34,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
   }
   nav :first-child {
     margin-right: 10px;
@@ -49,5 +54,18 @@
   }
   .nav-active {
     background-color: #126440;
+  }
+
+    * {
+	  -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+	  box-sizing: border-box !important;
+	  margin: 0;
+  }
+
+  *::before, *:after {
+	  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
   }
 </style>
